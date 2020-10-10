@@ -2,7 +2,7 @@ require_relative 'files'
 
 def main
     puts 'Menu: '
-    puts '1 - Salvar nome no arquivo.'
+    puts '1 - Adiciona nome no arquivo.'
     puts '2 - Ler nomes do arquivo.'
     puts '3 - Remover arquivo.'
     puts '0 - Sair'
@@ -15,7 +15,7 @@ while opc
 
     case main
         when 1
-            open_a_file
+            add_name
         when 2
             readme
         when 3

@@ -10,7 +10,7 @@ def mensagem msg
     puts ''
 end
 
-def open_a_file 
+def add_name
 
     File.open('./nomes.txt', 'a') do |file|
         
