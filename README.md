@@ -3,4 +3,5 @@
 * Exemplo de escrita e leitura de arquivos em ruby
 
 Para compilar o código:
-* ruby app.rb
+ - `bundle install`
+ - `ruby app.rb`
